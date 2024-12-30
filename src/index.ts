@@ -20,6 +20,7 @@ export * from './lib/default-config'
 
 export { default as GroupRow } from './lib/row/GroupRow'
 export { default as RowItems } from './lib/items/Items'
+export { default as ResizeDetector } from "./resize-detector/container";
 
 export { TimelineContext } from './lib/timeline/TimelineStateContext'
 export { Timeline }
